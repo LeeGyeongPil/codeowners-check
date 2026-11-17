@@ -1,0 +1,12 @@
+* @default
+!pom.xml
+[Docs]
+/docs/ @docs
+/docs/** @docs-shallow
+docs/README.md @readme
+^[Ruby][2] @ruby-default
+*.rb
+!/config/**/*.rb
+/config/routes.rb @ops
+[docs]
+/docs/internal/ @internal

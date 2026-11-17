@@ -1,0 +1,40 @@
+* @acme/core
+/docs/db/ @acme/ml
+/data/ @acme/infra
+/services/ @acme/qa @dave
+tools/* @acme/qa
+/infrax/ @acme/qa @acme/ml
+/libs/ @bob @acme/ml
+/data/db/ @acme/qa
+/apps/ @alice
+/scripts/ @dave @bob
+ops/* @acme/data
+**/views @carol
+*.js @acme/sec
+/infrax/ @acme/sec
+*.json @acme/ml
+services/* @carol
+/infra/
+ops/* @acme/data
+/services/ @bob @acme/qa
+/libs/ @dave
+/data/ @acme/data
+/apps/f5583.sql @acme/infra
+/web/
+/ops/**/core/ @acme/core
+/web/f7233.js @acme/data
+/scripts/f6243.js @acme/qa
+/scripts/**/views/ @dave
+/tools/**/core/ @acme/sec @acme/qa
+/tools/**/cfg/
+/web/f8648.js @carol
+/tools/f8613.sql @alice
+/ops/auth/ @acme/docs
+**/api @acme/infra @carol
+**/tests @alice
+**/db @carol
+infra/* @acme/infra
+/webx/ @carol
+/libs/auth/ @alice @dave
+/libs/**/cli/ @acme/ml
+*.json @acme/docs

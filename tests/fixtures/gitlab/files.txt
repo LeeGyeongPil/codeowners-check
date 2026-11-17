@@ -1,0 +1,8 @@
+pom.xml
+docs/a.md
+docs/sub/b.md
+x/docs/README.md
+docs/internal/z.md
+app/m.rb
+config/routes.rb
+config/init/x.rb

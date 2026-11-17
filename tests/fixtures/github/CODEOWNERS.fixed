@@ -1,0 +1,10 @@
+* @org/default
+docs/* @org/docs
+/docs/api/ @org/backend
+!docs/legacy/ @org/nobody
+[a-z]*.cfg @org/cfg
+*.js @org/js @alice
+/apps/github
+src/ @org/src
+src/core/** @org/core
+**/logs @org/ops
