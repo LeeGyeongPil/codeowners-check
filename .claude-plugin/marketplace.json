@@ -1,0 +1,12 @@
+{
+  "name": "codeowners-check-skill",
+  "owner": {"name": "LeeGyeongPil"},
+  "description": "Agent skill that shows what a CODEOWNERS file really does and proves that an edit only changes the intended paths.",
+  "plugins": [
+    {
+      "name": "codeowners-check",
+      "source": "./",
+      "description": "Resolves and verifies CODEOWNERS (GitHub and GitLab) with an offline standard-library script: owner and deciding line per file, skipped and shadowed rules, and a before/after ownership diff."
+    }
+  ]
+}

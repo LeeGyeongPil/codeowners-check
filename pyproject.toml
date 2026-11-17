@@ -1,0 +1,24 @@
+[project]
+name = "codeowners-check"
+version = "0.1.0"
+description = "Agent skill that resolves and verifies CODEOWNERS (GitHub and GitLab) with a standard-library script: owner and deciding line per file, skipped and shadowed rules, and a before/after ownership diff."
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "LeeGyeongPil" }]
+keywords = ["codeowners", "github", "gitlab", "agent-skill", "code-review", "lint"]
+dependencies = []
+
+[dependency-groups]
+# Test tools and the GitHub oracle only. The bundled script itself needs nothing beyond the standard library.
+dev = [
+    "pytest==9.2.0",
+    "codeowners==0.9.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["skills/codeowners-check/scripts"]
+addopts = "-ra"

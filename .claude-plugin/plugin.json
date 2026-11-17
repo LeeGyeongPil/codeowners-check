@@ -1,0 +1,10 @@
+{
+  "name": "codeowners-check",
+  "version": "0.1.0",
+  "description": "Resolves and verifies CODEOWNERS (GitHub and GitLab) with an offline standard-library script: owner and deciding line per file, skipped and shadowed rules, and a before/after ownership diff.",
+  "author": {"name": "LeeGyeongPil"},
+  "license": "MIT",
+  "homepage": "https://github.com/LeeGyeongPil/codeowners-check",
+  "repository": "https://github.com/LeeGyeongPil/codeowners-check",
+  "keywords": ["codeowners", "github", "gitlab", "code-review", "lint"]
+}
